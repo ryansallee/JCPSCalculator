@@ -18,34 +18,34 @@
          </children></StackPane>
       <HBox alignment="CENTER" prefHeight="50" prefWidth="300" spacing="10.0">
          <children>
-            <Button mnemonicParsing="false" prefWidth="50.0" text="7" HBox.hgrow="ALWAYS" />
-            <Button mnemonicParsing="false" prefWidth="50.0" text="8" HBox.hgrow="ALWAYS" />
-            <Button mnemonicParsing="false" prefWidth="50.0" text="9" HBox.hgrow="ALWAYS" />
-            <Button mnemonicParsing="false" prefWidth="50.0" text="+" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processNumber" prefWidth="50.0" text="7" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processNumber" prefWidth="50.0" text="8" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processNumber" prefWidth="50.0" text="9" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processOperator" prefWidth="50.0" text="+" HBox.hgrow="ALWAYS" />
          </children></HBox>
       <HBox alignment="CENTER" prefHeight="50" prefWidth="300" spacing="10.0">
       <children>
-         <Button mnemonicParsing="false" prefWidth="50.0" text="4" HBox.hgrow="ALWAYS" />
-         <Button mnemonicParsing="false" prefWidth="50.0" text="5" HBox.hgrow="ALWAYS" />
-         <Button mnemonicParsing="false" prefWidth="50.0" text="6" HBox.hgrow="ALWAYS" />
-         <Button mnemonicParsing="false" prefWidth="50.0" text="-" HBox.hgrow="ALWAYS" />
+         <Button mnemonicParsing="false" onAction="#processNumber" prefWidth="50.0" text="4" HBox.hgrow="ALWAYS" />
+         <Button mnemonicParsing="false" onAction="#processNumber" prefWidth="50.0" text="5" HBox.hgrow="ALWAYS" />
+         <Button mnemonicParsing="false" onAction="#processNumber" prefWidth="50.0" text="6" HBox.hgrow="ALWAYS" />
+         <Button mnemonicParsing="false" onAction="#processOperator" prefWidth="50.0" text="-" HBox.hgrow="ALWAYS" />
       </children></HBox>
       <HBox alignment="CENTER" prefHeight="50" prefWidth="300" spacing="10.0">
          <children>
-            <Button mnemonicParsing="false" prefWidth="50.0" text="1" HBox.hgrow="ALWAYS" />
-            <Button mnemonicParsing="false" prefWidth="50.0" text="2" HBox.hgrow="ALWAYS" />
-            <Button mnemonicParsing="false" prefWidth="50.0" text="3" HBox.hgrow="ALWAYS" />
-            <Button mnemonicParsing="false" prefWidth="50.0" text="*" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processNumber" prefWidth="50.0" text="1" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processNumber" prefWidth="50.0" text="2" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processNumber" prefWidth="50.0" text="3" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processOperator" prefWidth="50.0" text="*" HBox.hgrow="ALWAYS" />
          </children></HBox>
       <HBox alignment="CENTER" prefHeight="50" prefWidth="300" spacing="10.0">
          <children>
-            <Button mnemonicParsing="false" prefWidth="50.0" text="0" HBox.hgrow="ALWAYS" />
-            <Button mnemonicParsing="false" prefWidth="50.0" text="." HBox.hgrow="ALWAYS" />
-            <Button mnemonicParsing="false" prefWidth="50.0" text="/" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processNumber" prefWidth="50.0" text="0" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processNumber" prefWidth="50.0" text="." HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processOperator" prefWidth="50.0" text="/" HBox.hgrow="ALWAYS" />
          </children></HBox>
       <HBox alignment="CENTER" prefHeight="50" prefWidth="300" spacing="10.0">
          <children>
-            <Button mnemonicParsing="false" prefWidth="200.0" text="=" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#processOperator" prefWidth="200.0" text="=" HBox.hgrow="ALWAYS" />
          </children></HBox>
    </children>
 </VBox>
