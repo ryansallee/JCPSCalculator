@@ -11,3 +11,4 @@ A calculator to provide very basic math functions.
     ```
     mvn clean package exec:java -Dexec.mainClass=org.ryansallee.App
     ```
+
