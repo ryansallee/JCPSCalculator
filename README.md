@@ -1,4 +1,4 @@
-#4 Function Calculator
+# 4 Function Calculator
 A calculator to provide very basic math functions.
 
 ## Running the App
